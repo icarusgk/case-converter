@@ -1,0 +1,47 @@
+#title {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 5em;
+    font-family: sans-serif;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-area-container {
+    margin-top: 30px;
+}
+
+textarea {
+    outline: none;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    font-family: sans-serif;
+    padding: 20px;
+    resize: none;
+    min-width: 900px;
+}
+
+#button-area {
+    margin-top: 20px;
+}
+
+button {
+    border-style: none;
+    background: #ff3b5f;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#save-text-file {
+    margin-top: 20px;
+}
